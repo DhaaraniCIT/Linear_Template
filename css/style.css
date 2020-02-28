@@ -1,0 +1,441 @@
+header{
+    background:url("../images/header.jpg") bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+	width:100%;
+	height:600px;
+}
+body{
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	width:100%;
+	height:100%;
+}
+.box
+{
+position: relative;
+
+}
+.box2
+{
+	
+position: absolute;
+top: 0px;
+width: 100%;
+height: 59px;background: rgba(0,0,0,.1);
+
+}
+ul 
+{
+	display:inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+li 
+{ 
+  display: inline;
+  float: left;
+}
+ul li:last-child
+{
+	padding-right: 0;
+	border-right: none;
+}
+
+li a 
+{
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25;
+  font-family: Roboto;
+  border-right: 1px solid #bbb;
+}
+.center{
+	margin:0 auto;
+	width:600px;
+}
+.contents{
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	font-size: 90;
+	font-weight: normal;
+	font-family:'Roboto', sans-serif;
+	text-align: center;
+	color:#fff;
+	padding-top:250px;
+}
+.contents h3{
+	margin:0px;
+	font-size: 30;
+	font-style: normal;
+	top: 45%;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover 
+{
+  background-color: #111;
+}
+.second 
+{
+	width: 100%;
+	height: 1150px;
+	background-color: #f2f2f2;
+	font-family:'Roboto', sans-serif;
+	text-align: center;
+	color:#A9A9A9;
+	font-weight: normal;
+	margin:0px;
+	float:left;
+	
+	
+}
+.clear
+{
+	clear:both;
+} 	
+.second h2{
+	font-size: 30;
+	line-height:2;
+	padding-bottom:25px;
+	padding-top:25px;
+	font-style:normal;
+	
+}
+.second h4{
+	font-size:15;
+}
+.second p{
+	padding-bottom:1.5em;
+	font-size:1.2em;
+	text-align: center;
+	margin-bottom: 1em;
+	line-height:2;
+}
+
+p a{
+	color: #80BA8E;
+}
+.second hr {
+    border: 0;
+    border-top: solid 1px #ddd;
+    margin: 6em 0 0 0;
+    padding: 6em 0 0 0;
+	padding-right:20px;
+	padding-left:20px;
+}
+.secondrow{
+	display: inline-block;
+	width:25%;
+	margin:0px auto;
+	padding-left:20px;
+	padding-bottom:50px;
+	text-align:center;
+}
+.second button {
+  background-color: #80BA8E;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin:2px 5px;
+  cursor: pointer;
+  border-radius: 8px;
+} 
+ .second button:hover
+ {
+	 background-color: #777;
+ }
+ 
+ .row{
+	 width:100%
+ }
+ .grid-container h1{
+	 font-size:30;
+	 font-style: normal;
+	 padding-bottom:1em;
+ }
+ .grid-container h4{
+	 font-style:normal;
+ }
+ .grid-container {
+  display:grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 50px;
+  font-family:'Roboto', sans-serif;
+  padding-left:160px;
+  color:#A9A9A9;
+	font-weight: normal;
+	width:960px;
+	text-align:center;
+	padding-top:60px;
+}
+
+.grid-container  div {
+  
+  text-align: center;
+  padding: 20px 0;
+ 
+}
+.imgs{
+background:url("D:/web_project/images/header.jpg") bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+	width:100%;
+	height:300px;
+}
+.fourth{
+	font-family:'Roboto', sans-serif;
+	text-align: center;
+	color:#fff;
+	height:500px;
+	background-color:#000;
+	
+}
+.fourth div{
+	background-color:#000;
+	padding-top:50px;
+	font-size:40;
+}
+.fourth h4{
+	font-size:20;
+	padding-bottom:20px;
+	
+}
+.fourth p {
+	font-size:30;
+	font-style:italic;
+	height:250px;
+	top:15%;
+	background: rgba(0,0,0,.1);
+	position:absolute;
+}
+.fourth img{
+	display:inline-block;
+	padding-bottom:2px;
+	padding-left:2px;
+	padding-right:2px;
+	padding-top:2px;
+}
+img:hover
+{
+	background-color: #fff;
+}	
+.container{
+	width:960px;
+}
+.fourth h1{
+	font-size:40;
+	padding-bottom:20px;
+	padding-top:20px;
+	
+}
+.fourth h5{
+	font-size:10;
+	padding-bottom:20px;
+    padding-top:20px;
+	margin-block-end:0px;
+}
+.container{
+	margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+	
+}
+.page2
+{
+	height:1000px;
+	padding-top:30px;
+	font-family:'Roboto', sans-serif;
+	display:grid;
+  grid-template-columns: auto auto ;
+  
+  font-weight: normal;
+}
+.left
+{
+	width:50%;
+	padding-left:200px;
+	padding-right:-100px;
+	font-family:'Roboto', sans-serif;
+}
+.leftdiv
+{
+	display:grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+  font-weight: normal;
+}
+.leftdiv h4
+{    font-size:15;
+	 color:#80BA8E;
+	 padding-bottom:3px;
+}
+.leftdiv h4:hover
+{
+	text-decoration:underline;
+}
+.leftdiv h2
+{
+	font-size:30;
+	color:#777;
+	
+}
+.leftdiv hr
+{
+	border-bottom: solid 1px #ddd;
+}
+.leftdown
+{
+	display:grid;
+  grid-template-columns: auto ;
+  grid-gap: 5px;
+  font-weight: normal;
+}
+.leftdown hr{
+
+  border-bottom: solid 1px #ddd;
+	
+}
+.leftdown h5
+{
+	font-size:10;
+}
+.leftdown h4
+{
+	color:#777;
+}
+.leftdown h4:hover
+{
+	text-decoration:underline;
+}
+.leftdown h2
+{
+	font-size:30;
+	color:#777;
+	
+}
+.right
+{
+	padding-right:200px;
+	font-family:'Roboto', sans-serif;
+	display:inline;
+}
+.right h1
+{
+	font-size:50;
+	color:#777;
+}
+.right h2
+{
+	font-size:20;
+	color:#777;
+}
+.right p
+{
+	font-size:15;
+	color:#777;
+}
+.rightt
+{
+	width:50%;
+	padding-right:200px;
+	padding-right:-100px;
+	font-family:'Roboto', sans-serif;
+	float: right;
+}
+.rightdiv
+{
+	display:grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+  font-weight: normal;
+}
+.rightdiv h4
+{    font-size:15;
+	 color:#80BA8E;
+	 padding-bottom:3px;
+}
+.rightdiv h4:hover
+{
+	text-decoration:underline;
+}
+.rightdiv h2
+{
+	font-size:30;
+	color:#777;
+	
+}
+.rightdiv hr
+{
+	border-bottom: solid 1px #ddd;
+}
+.rightdown
+{
+	display:grid;
+  grid-template-columns: auto ;
+  grid-gap: 5px;
+  font-weight: normal;
+}
+.rightdown hr{
+
+  border-bottom: solid 1px #ddd;
+	
+}
+.rightdown h5
+{
+	font-size:10;
+}
+.rightdown h4
+{
+	color:#777;
+}
+.rightdown h4:hover
+{
+	text-decoration:underline;
+}
+.rightdown h2
+{
+	font-size:30;
+	color:#777;
+	
+}
+.leftt
+{
+	padding-left:200px;
+	font-family:'Roboto', sans-serif;
+	display:inline;
+}
+.leftt h1
+{
+	font-size:50;
+	color:#777;
+}
+.leftt h2
+{
+	font-size:20;
+	color:#777;
+}
+.leftt p
+{
+	font-size:15;
+	color:#777;
+}
+.five
+{
+	font-family:'Roboto', sans-serif;
+	color:#A9A9A9;
+	
+}

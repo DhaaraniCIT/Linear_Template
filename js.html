@@ -1,0 +1,105 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<title>form</title>
+<script>
+var a,b,c,d,e;
+function Username()
+{
+	a=document.getElementById("username").value;
+	if(a!="")
+	{
+		document.getElementById("uservalid").innerHTML=" ";
+	}
+	else
+	{
+		document.getElementById("uservalid").innerHTML="The username is empty";
+	}
+}
+function Telephone()
+{
+	b=document.getElementById("telephone").value;
+	if(b.length==8)
+	{
+		document.getElementById("televalid").innerHTML=" ";
+	}
+	else
+	{
+		document.getElementById("televalid").innerHTML="The telephone is not 8 character";
+	}
+}
+function Password()
+{
+	c=document.getElementById("passwords").value;
+	var strongRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})");
+	
+	if(strongRegex.test(c) && c.length<15)
+	{
+		document.getElementById("passwordvalid").innerHTML=" ";
+	}
+	else
+	{
+		document.getElementById("passwordvalid").innerHTML="The Password should be atleast 8 characters to atmost 15 characters";
+	}
+}
+function CPassword()
+{
+	d=document.getElementById("cpassword").value;
+	if(d==c)
+	{
+		document.getElementById("cpassvalid").innerHTML=" ";
+	}
+	else
+	{
+		document.getElementById("cpassvalid").innerHTML="The Password and conform password does't match";
+	}
+}
+function Email()
+{
+	e=document.getElementById("email").value;
+	if(e!="")
+	{
+		document.getElementById("emailvalid").innerHTML=" ";
+	}
+	else
+	{
+		document.getElementById("emailvalid").innerHTML="The email is empty";
+	}
+}
+</script>
+</head>
+<font size="5" >
+<body>
+<header>
+	<div class="box">
+		<div class="box2">
+			<div class="center">
+				<ul>
+					<li><a href="home.html">Homepage</a></li>
+					<li><a href="leftslided.html">left Sidebar</a></li>
+					<li><a href="rightslider.html">Right Sidebar</a></li>
+					<li><a class="active" href="js.html">Sign up</a></li>
+				</ul> 
+			</div>
+			<div>
+				<div class="contents">
+					<h3>SIGN UP</h3><br>
+					
+						
+							<h3>Username&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input type="text" id="username" onblur="Username()"><span id="uservalid" ></span><br/></h3>
+							<h3>Telephone&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input type="number" id="telephone" onblur="Telephone()"><span id="televalid" ></span><br/></h3>
+							<h3>Password&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input type="password" id="passwords" onblur="Password()"><span id="passwordvalid" ></span><br/></h3>
+							<h3>Conformpassword:<input type="password" id="cpassword" onblur="CPassword()"><span id="cpassvalid" ></span><br/></h3>
+							<h3>Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input type="email" id="email" onblur="Email()"><span id="emailvalid"></span><br/></h3>
+							<input type="submit" value="Sumbit">
+						
+					
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+</body>
+</font>
+</html>
